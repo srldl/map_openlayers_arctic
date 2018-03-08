@@ -1,0 +1,33 @@
+{
+  "name": "map_openlayers",
+  "version": "0.0.1",
+  "description": "Basic map test with browserify and openlayers",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "http-server -a localhost -p 8000 -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srldl/map_openlayers.git"
+  },
+  "keywords": [
+    "map",
+    "browserify"
+  ],
+  "author": "srldl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/srldl/map_openlayers/issues"
+  },
+  "homepage": "https://github.com/srldl/map_openlayers#readme",
+  "devDependencies": {
+    "angular-simple-logger": "^0.1.4",
+    "browser-sync": "^2.8.2",
+    "browserify": "^11.0.1",
+    "http-server": "^0.8.0"
+  },
+  "dependencies": {
+    "angular": "^1.4.4"
+  }
+}
